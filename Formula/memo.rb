@@ -1,4 +1,4 @@
-class Datasette < Formula
+class Memo < Formula
   include Language::Python::Virtualenv
   desc 'CLI app to manage your Apple Notes and Apple reminders'
   homepage 'https://github.com/antoniorodr/memo'
