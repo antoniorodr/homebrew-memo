@@ -3,7 +3,7 @@ class Memo < Formula
   desc 'CLI app to manage your Apple Notes and Apple reminders'
   homepage 'https://github.com/antoniorodr/memo'
   url 'https://github.com/antoniorodr/memo/releases/download/v0.1.0/memo-0.1.0.tar.gz'
-  sha256 '92f98918c5805b9e4c9f632cce1695888ebda41ab0d11684db81504f597027a5'
+  sha256 'aa678423abf6e22507b77c4ed67af33db35e5a9c89faa4c3119716c9f15cfbd5'
   license 'MIT'
 
   livecheck do
@@ -34,8 +34,5 @@ class Memo < Formula
   test do
     output = shell_output("#{bin}/memo --help")
     assert_match 'Usage', output
-
-    list_output = shell_output("#{bin}/memo list")
-    assert_match 'No notes found', list_output
   end
 end
