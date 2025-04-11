@@ -2,8 +2,8 @@ class Memo < Formula
   include Language::Python::Virtualenv
   desc 'CLI app to manage your Apple Notes and Apple reminders'
   homepage 'https://github.com/antoniorodr/memo'
-  url 'https://github.com/antoniorodr/memo/releases/download/v0.2.0/memo-0.2.0.tar.gz'
-  sha256 'b3860a0e3cf2fa5cdd681080909b5c8165e9abd499aa3132f5d8d7031ea4fdc1'
+  url 'https://github.com/antoniorodr/memo/releases/download/v0.2.1/memo-0.2.1.tar.gz'
+  sha256 '7d46467d6b9a41ec0dc3dcdf528ad27fd92bf8f2936761c71898c63486796ca3'
   license 'MIT'
 
   livecheck do
