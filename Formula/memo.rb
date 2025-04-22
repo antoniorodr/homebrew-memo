@@ -2,8 +2,8 @@ class Memo < Formula
   include Language::Python::Virtualenv
   desc 'CLI app to manage your Apple Notes and Apple reminders'
   homepage 'https://github.com/antoniorodr/memo'
-  url 'https://github.com/antoniorodr/memo/releases/download/v0.2.3/memo-0.2.3.tar.gz'
-  sha256 '3b6125f82c4ccbe413f01499f8c138b190e71860d23d92776ed661913e434058'
+  url 'https://github.com/antoniorodr/memo/releases/download/v0.3.0/memo-0.3.0.tar.gz'
+  sha256 '434a67afdf5d1aca00f305f74a2b6254e353ee5242f3ccdda57545f2c3c1d7f5'
   license 'MIT'
 
   livecheck do
@@ -25,6 +25,11 @@ class Memo < Formula
   resource 'mistune' do
     url 'https://files.pythonhosted.org/packages/c4/79/bda47f7dd7c3c55770478d6d02c9960c430b0cf1773b72366ff89126ea31/mistune-3.1.3.tar.gz'
     sha256 'a7035c21782b2becb6be62f8f25d3df81ccb4d6fa477a6525b15af06539f02a0'
+  end
+  
+  resource 'chardet' do
+    url 'https://files.pythonhosted.org/packages/f3/0d/f7b6ab21ec75897ed80c17d79b15951a719226b9fababf1e40ea74d69079/chardet-5.2.0.tar.gz'
+    sha256 '1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7'
   end
 
   def install
