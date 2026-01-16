@@ -3,7 +3,7 @@ class Memo < Formula
   desc 'CLI app to manage your Apple Notes and Apple reminders'
   homepage 'https://github.com/antoniorodr/memo'
   url 'https://github.com/antoniorodr/memo/releases/download/v0.3.2/memo-0.3.2.tar.gz'
-  sha256 'c85a89482ab7998edf764d685de69c2b188510a021efc883af4df8730d2ab141'
+  sha256 'e2d064640f3ca17729ae057af09c443b9c773c5abf07948af6ed94c66ac0515b'
   license 'MIT'
 
   livecheck do
