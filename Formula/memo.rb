@@ -10,6 +10,7 @@ class Memo < Formula
     url :stable
   end
 
+  depends_on 'fzf'
   depends_on 'python@3.13'
 
   resource 'click' do
