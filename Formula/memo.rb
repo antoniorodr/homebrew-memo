@@ -14,23 +14,23 @@ class Memo < Formula
   depends_on 'python@3.13'
 
   resource 'click' do
-    url 'https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz'
-    sha256 'ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a'
+    url 'https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz'
+    sha256 '14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5'
   end
 
   resource 'html2text' do
-    url 'https://files.pythonhosted.org/packages/1a/43/e1d53588561e533212117750ee79ad0ba02a41f52a08c1df3396bd466c05/html2text-2024.2.26.tar.gz'
-    sha256 '05f8e367d15aaabc96415376776cdd11afd5127a77fce6e36afc60c563ca2c32'
+    url 'https://files.pythonhosted.org/packages/f8/27/e158d86ba1e82967cc2f790b0cb02030d4a8bef58e0c79a8590e9678107f/html2text-2025.4.15.tar.gz'
+    sha256 '948a645f8f0bc3abe7fd587019a2197a12436cd73d0d4908af95bfc8da337588'
   end
 
   resource 'mistune' do
-    url 'https://files.pythonhosted.org/packages/c4/79/bda47f7dd7c3c55770478d6d02c9960c430b0cf1773b72366ff89126ea31/mistune-3.1.3.tar.gz'
-    sha256 'a7035c21782b2becb6be62f8f25d3df81ccb4d6fa477a6525b15af06539f02a0'
+    url 'https://files.pythonhosted.org/packages/9d/55/d01f0c4b45ade6536c51170b9043db8b2ec6ddf4a35c7ea3f5f559ac935b/mistune-3.2.0.tar.gz'
+    sha256 '708487c8a8cdd99c9d90eb3ed4c3ed961246ff78ac82f03418f5183ab70e398a'
   end
 
   resource 'chardet' do
-    url 'https://files.pythonhosted.org/packages/f3/0d/f7b6ab21ec75897ed80c17d79b15951a719226b9fababf1e40ea74d69079/chardet-5.2.0.tar.gz'
-    sha256 '1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7'
+    url 'https://files.pythonhosted.org/packages/19/b6/9df434a8eeba2e6628c465a1dfa31034228ef79b26f76f46278f4ef7e49d/chardet-7.4.3.tar.gz'
+    sha256 'cc1d4eb92a4ec1c2df3b490836ffa46922e599d34ce0bb75cf41fd2bf6303d56'
   end
 
   def install
